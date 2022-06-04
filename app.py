@@ -7,6 +7,9 @@ import twitter_api_stream as tas
 
 app = Flask(__name__)
 
+# Load environment variables
+load_dotenv()
+
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
