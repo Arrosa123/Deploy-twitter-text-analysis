@@ -1,7 +1,7 @@
 from xml.etree.ElementTree import tostring
 from flask import Flask, render_template, redirect, url_for, request
 import json
-from dotenv import load_dotenv
+
 import Machine_Learning_spark as ml
 import twitter_api_stream as tas
 
